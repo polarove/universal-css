@@ -1,0 +1,11 @@
+{
+    "name": "universal-css",
+    "version": "0.0.1",
+    "description": "personal css files used around my projects",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "liuqi <liuqi6602@163.com>",
+    "license": "MIT"
+}
