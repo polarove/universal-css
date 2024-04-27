@@ -2,7 +2,7 @@
     "name": "@polaris_liu/universal-css",
     "version": "0.0.4",
     "description": "personal css files used around my projects",
-    "main": "index.js",
+    "type": "module",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -10,11 +10,11 @@
     "license": "MIT",
     "devDependencies": {
         "commitizen": "^4.3.0",
-        "cz-conventional-changelog": "^3.3.0"
+        "@cz-translated-changelog/zh-cn": "workspace:*"
     },
     "config": {
         "commitizen": {
-            "path": "./node_modules/cz-conventional-changelog"
+            "path": "./node_modules/@cz-translated-changelog/zh-cn"
         }
     },
     "publishConfig": {
